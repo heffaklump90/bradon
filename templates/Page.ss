@@ -35,13 +35,26 @@
 
 			<div id="Navigation">
 				<% if $Menu(1) %>
-				<ul>
-					<% loop $Menu(1) %>
-					<li>
-						<a href="$Link" title="Go to the $Title page" class="$LinkingMode">$MenuTitle</a>
-					</li>
-					<% end_loop %>
-				</ul>
+				<div class="level1">
+					<ul>
+						<% loop $Menu(1) %>
+						<li>
+							<a href="$Link" title="Go to the $Title page" class="$LinkingMode">$MenuTitle</a>
+						</li>
+						<% end_loop %>
+					</ul>
+				</div>
+				<% end_if %>
+				<% if $Menu(2) %>
+				<div class="level2">
+					<ul>
+						<% loop $Menu(2) %>
+						<li>
+							<a href="$Link" title="Go to the $Title page" class="$LinkingMode">$MenuTitle</a>
+						</li>
+						<% end_loop %>
+					</ul>
+				</div>
 				<% end_if %>
 			</div>
 
