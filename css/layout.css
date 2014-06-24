@@ -11,10 +11,40 @@ body {
 	margin: 0px auto;
 }
 
+/* HEADER AREA
+------------------------------------------*/
+#Header {
+	background: #fff;
+}
+
+#Header div {
+
+}
+
+#Header p.sitename { 
+	font-weight: 700;
+	font-family: Roboto, Tahoma, Verdana, sans-serif;
+	font-style: italic;
+	font-size: 2.4em;
+	margin: 0;
+}
+
+#Header p.tagline {
+	padding-top: 12px;
+	padding-left: 128px;
+	font-size: 1.8em;
+	margin: 0;
+
+}
+
+#Header img {
+
+}
 
 /* MAIN NAVIGATION - TABS
 ----------------------------------------- */
 #Navigation {
+	clear: both;
 	overflow: hidden;
 	background: #FFF;
 }

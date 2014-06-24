@@ -5,6 +5,7 @@
 		$MetaTags(true)
 		<title>$Title</title>
 		<link rel="shortcut icon" href="/favicon.ico" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -26,14 +27,15 @@
 
 	<body>
 		<div id="Container">
-			<div id="Header">
-				<span class="sitename">$SiteConfig.Title</span>
-				<p>
-					$SiteConfig.Tagline
-				</p>
+			<div id="Header" class="typography">
+				<div style="float: left">
+					<p class="sitename">$SiteConfig.Title</p>
+					<p class="tagline">$SiteConfig.Tagline</p>
+				</div>
+				<img src="/themes/bradon/images/runner.png" />
 			</div>
 
-			<div id="Navigation">
+			<div id="Navigation" class="typography">
 				<% if $Menu(1) %>
 				<div class="level1">
 					<ul>
@@ -58,11 +60,11 @@
 				<% end_if %>
 			</div>
 
-			<div id="Layout">
+			<div id="Layout" class="typography">
 				$Layout
 			</div>
 
-			<div id="Footer">
+			<div id="Footer" class="typography">
 				<% include Footer %>
 			</div>
 		</div>
