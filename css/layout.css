@@ -18,7 +18,7 @@ body {
 }
 
 #Header div {
-
+	float: left;
 }
 
 #Header p.sitename { 

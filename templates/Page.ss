@@ -28,7 +28,7 @@
 	<body>
 		<div id="Container">
 			<div id="Header" class="typography">
-				<div style="float: left">
+				<div>
 					<p class="sitename">$SiteConfig.Title</p>
 					<p class="tagline">$SiteConfig.Tagline</p>
 				</div>
