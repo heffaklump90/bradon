@@ -4,19 +4,23 @@ body {
 	background: #fff url(../images/bgrepeater.png) repeat;
 }
 
+/* TOP LEVEL CONTAINER
+----------------------------------------- */
+#Container {
+	width: 1024px;
+	margin: 0px auto;
+}
+
 
 /* MAIN NAVIGATION - TABS
 ----------------------------------------- */
 #Navigation {
-	float: left;
-	margin: 0 auto;
-	padding-top: 10px;
 	overflow: hidden;
 	background: #FFF;
 }
 
 #Navigation div{
-	float: left;
+
 }
 
 #Navigation div.level2{
@@ -24,22 +28,23 @@ body {
 }
 
 	#Navigation ul { 
+		padding: 0;
+		margin: 0;
+		border: 0;
 	}
 		#Navigation ul li { 
-	 		list-style: none; 
-			margin: 0 2px; 
 			float: left;
+			margin-right: 8px;
+	 		list-style: none;
 			display: block;
 		}
+
   			#Navigation ul li a { 
-				float: left;
 				text-decoration: none;
 				display: block; 
-				padding: 0 0 0 10px;
 			}
 				#Navigation ul li a span {
 					text-align: center;
-	        		float: left;
 					padding-right: 10px;
 				}
 
@@ -67,7 +72,6 @@ body {
 
 #Layout {
 	clear: both;
-	float: left;
 	margin: 0 auto;
 	overflow: hidden;
 	background: #FFF;
