@@ -2,19 +2,22 @@
 ----------------------------------------- */
 body {
 	background: #fff url(../images/bgrepeater.png) repeat;
+	margin: 0px;
 }
 
 /* TOP LEVEL CONTAINER
 ----------------------------------------- */
 #Container {
+	background: #fff;
 	width: 1024px;
 	margin: 0px auto;
+	padding: 0px 10px;
 }
 
 /* HEADER AREA
 ------------------------------------------*/
 #Header {
-	background: #fff;
+	
 }
 
 #Header div {
