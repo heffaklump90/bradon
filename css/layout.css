@@ -1,7 +1,7 @@
 /* BACKGROUND
 ----------------------------------------- */
 body {
-	background: #fff url(../images/bgrepeater.png) repeat;
+	background: #fff url(../images/bgrepeater-2.png) repeat;
 	margin: 0px;
 }
 
@@ -52,12 +52,13 @@ body {
 	background: #FFF;
 }
 
-#Navigation div{
-
+#Navigation div.level1{
+	font-size: 1.4em;
 }
 
 #Navigation div.level2{
 	clear:both;
+	font-size: 1.2em;
 }
 
 	#Navigation ul { 
@@ -73,27 +74,27 @@ body {
 		}
 
   			#Navigation ul li a { 
+  				font-family: Roboto, Tahoma, Verdana, sans-serif;
+				font-style: italic;
 				text-decoration: none;
-				display: block; 
+				display: block;
+				padding-right: 3px; 
+				padding-left: 3px; 
 			}
-				#Navigation ul li a span {
-					text-align: center;
-					padding-right: 10px;
-				}
 
-				#Navigation ul li a:hover { 
+
+				#Navigation ul li a:hover {
+					background-color: #770707;
+					color: #FFF;
 					cursor: pointer;
 				}
 
-					#Navigation ul li a:hover span {
-						cursor: pointer;
-					}
-					
     			#Navigation ul li a.current,
-	    		#Navigation ul li a.section,
-	    		#Navigation ul li a.section:hover,
-	    		#Navigation ul li a.current:hover { 
-					}
+	    		#Navigation ul li a.current:hover {
+					background-color: #770707;
+					color: #FFF;	
+					cursor: default;
+				}
 				#Navigation ul li a.current span,
 				#Navigation ul li a.section span,
 	    		#Navigation ul li a.section:hover span,
@@ -109,6 +110,16 @@ body {
 	overflow: hidden;
 	background: #FFF;
 }
+
+/* Twitter specific */
+ul.latest-tweets {
+	padding-left: 0px;
+	list-style: none;
+}
+	/* Hide the Tweet pics */
+	div.tweet-pic {
+		display: none;
+	}
 
 
 /* FOOTER LAYOUT

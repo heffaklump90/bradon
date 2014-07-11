@@ -34,3 +34,15 @@
 .typography h6 {
 	font-size: 13px;
 }
+
+/* LINK STYLES
+-----------------------------------------------*/
+.typography a:link,
+.typography a:visited {
+	color: #505050;
+	text-decoration: none;
+}
+
+.typography a:HOVER {
+	cursor: pointer;
+}
